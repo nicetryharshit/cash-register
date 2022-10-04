@@ -1,0 +1,68 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+input {
+  padding: 0;
+  max-width: 100px;
+  height: 30px;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  border-radius: 5px;
+  border-width: 1px;
+  text-align: center;
+  font-size: larger;
+}
+
+label {
+  padding: 0;
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  text-decoration-style: solid;
+  text-decoration: underline;
+}
+
+button {
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  height: 25px;
+  background-color: rgba(51, 51, 51, 0.05);
+  border-radius: 8px;
+  border-width: 0;
+  color: #333333;
+  cursor: pointer;
+  min-width: 80px;
+  min-height: 30px;
+}
+
+table {
+  margin: auto;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: white;
+  background-color: #e1ffe6;
+  min-width: 50px;
+  padding: 5px;
+}
